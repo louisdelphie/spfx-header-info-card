@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "680ee1a4-46bc-4500-a9ad-364518a34099",
+  "alias": "HeaderInfoCardWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Header Info Card" },
+    "description": { "default": "Header Info Card description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "headerInfoCardTitle": "Pending",
+      "headerInfoCardIconDarkToggle": true,
+      "headerInfoCardIcon": "clock",
+      "headerInfoCardIconBackgroundColor": "#ff8c00",
+      "listName": "",
+      "dataCount": 0,
+      "dataFilter": "all"
+    }
+  }]
+}

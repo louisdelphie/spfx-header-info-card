@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-header-info-card-client-side-solution",
+    "id": "52d98a26-fefd-4a3c-a7ad-95ac7ba96de5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-header-info-card description"
+      },
+      "longDescription": {
+        "default": "spfx-header-info-card description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-header-info-card Feature",
+        "description": "The feature that activates elements of the spfx-header-info-card solution.",
+        "id": "d555749a-8edd-4307-90bf-382fc431e607",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-header-info-card.sppkg"
+  }
+}
